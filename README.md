@@ -13,7 +13,7 @@ Testing framework written in kotlin programming language.
 
 ### Unit test example
 
-  class MyTest : UnitTest {
+    class MyTest : UnitTest {
        before() {
             // set up
        }
@@ -24,23 +24,23 @@ Testing framework written in kotlin programming language.
             // do something      }
        test ("Test something") {
        }
-  }
+    }
 
 ### Bdd test example
 
-  class MyFeature extends BddTest {
-    feature ("") {
-      info ("")
-      info ("")
-      info ("")
-  }
+    class MyFeature extends BddTest {
+      feature ("") {
+        info ("")
+        info ("")
+        info ("")
+      }
 
-  scenario ("") {
-    given ("")
-    ...
-    when ("")
-    ...
-    then("")
-    }
+      scenario ("") {
+        given ("")
+        ...
+        when ("")
+        ...
+        then("")
+      }
   }
 
